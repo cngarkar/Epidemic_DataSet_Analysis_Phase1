@@ -20,7 +20,11 @@ import asu.mwdb.phase1.task1.Constants;
 import asu.mwdb.phase1.task1.Index;
 import asu.mwdb.phase1.task2.AvgUtilities;
 import org.tc33.jheatchart.HeatChart;
-
+/**
+ * 
+ * @author Chandrashekhar
+ *
+ */
 public class CreateHeatMap {
 	public static void main(String args[])throws FileNotFoundException, IOException{
 		boolean wrongArg = false;

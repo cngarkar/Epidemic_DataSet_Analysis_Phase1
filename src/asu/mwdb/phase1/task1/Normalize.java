@@ -7,7 +7,11 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.text.DecimalFormat;
 import java.util.List;
-
+/**
+ * 
+ * @author Chandrashekhar
+ *
+ */
 public class Normalize {
 	private double min;
 	private double max;

@@ -6,7 +6,11 @@ import java.io.IOException;
 
 import asu.mwdb.phase1.task1.Index;
 import asu.mwdb.phase1.task1.StringOperations;
-
+/**
+ * 
+ * @author Chandrashekhar
+ *
+ */
 public class Strength {
 	private double strengthLowest;
 	private double strengthHighest;
@@ -135,7 +139,6 @@ public class Strength {
 		 String entry[], index[], word[];
 		 double minStrength = Double.MAX_VALUE, local;
 		 double maxStrength = 0.00000000000000001;
-		 //int iteration = 1;
 		while ((line = buffRdr.readLine()) != null) {
 			if(line != null){
 				entry = line.split(splitByComma);
@@ -158,7 +161,6 @@ public class Strength {
 				}
 				this.setWindLength(word.length);
 			}
-			//line = buffRdr.readLine();
 		}
 		if(this.getIndexHighest() == null){
 			this.setStrengthHighest(this.getStrengthLowest());;

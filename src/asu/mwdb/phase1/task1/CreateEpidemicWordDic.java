@@ -12,7 +12,11 @@ import java.util.List;
 
 import matlabcontrol.MatlabConnectionException;
 import matlabcontrol.MatlabInvocationException;
-
+/**
+ * 
+ * @author Chandrashekhar
+ *
+ */
 public class CreateEpidemicWordDic {
 	public static final String QUANTIZED_DIRECTORY = "";
 	static final double MEAN = 0;

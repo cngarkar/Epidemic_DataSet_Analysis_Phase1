@@ -6,6 +6,11 @@ import matlabcontrol.MatlabConnectionException;
 import matlabcontrol.MatlabInvocationException;
 import matlabcontrol.MatlabProxy;
 import matlabcontrol.MatlabProxyFactory;
+/**
+ * 
+ * @author Chandrashekhar
+ *
+ */
 public class Quantization {
 	private double lengthOfBand;
 	private double representative;

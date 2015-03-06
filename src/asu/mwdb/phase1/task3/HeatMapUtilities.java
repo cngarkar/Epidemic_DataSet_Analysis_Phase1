@@ -10,6 +10,11 @@ import java.util.List;
 
 import asu.mwdb.phase1.task1.Constants;
 
+/**
+ * 
+ * @author Chandrashekhar
+ *
+ */
 public class HeatMapUtilities {
 
 	/**

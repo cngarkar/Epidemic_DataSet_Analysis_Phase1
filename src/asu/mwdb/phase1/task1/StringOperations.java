@@ -4,6 +4,11 @@ import java.text.DecimalFormat;
 
 import asu.mwdb.phase1.task2.Buffer;
 
+/**
+ * 
+ * @author Chandrashekhar
+ *
+ */
 public class StringOperations {
 
 	public StringOperations() {

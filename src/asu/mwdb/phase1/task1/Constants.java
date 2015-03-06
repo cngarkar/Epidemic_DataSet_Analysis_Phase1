@@ -2,6 +2,11 @@ package asu.mwdb.phase1.task1;
 
 import java.util.Map;
 import java.util.HashMap;
+/**
+ * 
+ * @author Chandrashekhar
+ *
+ */
 public class Constants {
 	public static final Map<Integer, String> stateMap= new HashMap<Integer, String>();
 	static {

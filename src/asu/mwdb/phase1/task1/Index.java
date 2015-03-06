@@ -1,5 +1,9 @@
 package asu.mwdb.phase1.task1;
-
+/**
+ * 
+ * @author Chandrashekhar
+ *
+ */
 public class Index {
 	private String fileName;
 	private String stateName;
